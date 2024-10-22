@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyFood</title>
+   
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos.css">
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">TastyFood</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Tasty food</h1>
+                    <h2 class="home__subtitle">Try the best food of <br> the week.</h2>
+                    <p class="about__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <a href="#" class="button">View Menu</a>
+                </div>
+
+                <img id="image" src="./images/home.png"
+                    alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--========== MENU ==========-->
+        <section class="menu section bd-container" id="menu">
+        
+            <span class="section-subtitle">Special</span>
+            <div class="fading-images">
+               
+                    <img id="image" src="./images/veg2.png" width="120px" data-aos="fade-right" data-aos-delay="100"
+                    alt="" class="img-right">
+             
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Menu of the week</h2>
+
+                    <img id="image" src="./images/veg6.png" width="120px" data-aos="fade-left" data-aos-delay="100"
+                    alt="" class="">
+               
+            </div>
+          
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="./images/plate1.png"
+                        alt="" class="menu__img" id="subimage1">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                </div>
+
+                <div class="menu__content">
+                    <img src="./images/plate2.png"
+                        alt="" class="menu__img" id="subimage2">
+                    <h3 class="menu__name">Salad with fish</h3>
+                    <span class="menu__detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                </div>
+
+                <div class="menu__content">
+                    <img src="./images/plate3.png"
+                        alt="" class="menu__img" id="subimage3">
+                    <h3 class="menu__name">Spinach salad</h3>
+                    <span class="menu__detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <p class="footer__copy">&#169; 2024 <a href="mailto:himani.patil29792@gmail.com">himani.patil29792@gmail.com</a>. All rights reserved</p>
+    </footer>
+
+  <script src="main.js"></script>
+  <script src="aos.js"></script> 
+</body>
+
+</html>
